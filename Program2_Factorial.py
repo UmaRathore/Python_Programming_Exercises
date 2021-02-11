@@ -10,4 +10,24 @@ def factorial(num):
     return number_factorial
 
 
-print(factorial(8))
+while True:
+    try:
+        number_fact_list = {}
+        total_numbers = int(float(input("How many number's factorial want to print : ")))
+        if total_numbers > 0:
+            for count in range(total_numbers):
+                n = input("Enter number : ")
+                number = int(n)
+                if number > 0:
+                    number_fact_list[n] = factorial(number)
+                else:
+                    print("Number should be greater than zero")
+
+            print(number_fact_list)
+        elif total_numbers < 0:
+            print("No Factorial for negative integers")
+    except ValueError:
+        print("Enter integer greater than zero")
+    else:
+        print("Thank you")
+        break
