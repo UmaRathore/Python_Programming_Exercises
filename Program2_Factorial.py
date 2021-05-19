@@ -24,6 +24,7 @@ while True:
                     print("Number should be greater than zero")
 
             print(number_fact_list)
+
         elif total_numbers < 0:
             print("No Factorial for negative integers")
     except ValueError:
