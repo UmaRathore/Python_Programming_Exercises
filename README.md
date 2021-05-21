@@ -20,3 +20,10 @@ Sum_of_two_integers_level2:
 Get size of array from user and its values as integers, return indices of the two numbers such
 that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
+
+Fizz Buzz:
+Given an integer n, return a string array answer (1-indexed) where:
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+answer[i] == "Fizz" if i is divisible by 3.
+answer[i] == "Buzz" if i is divisible by 5.
+answer[i] == i if non of the above conditions are true.
