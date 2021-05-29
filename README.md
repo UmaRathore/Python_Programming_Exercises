@@ -32,6 +32,10 @@ First_Unique_Character_String:
 Given a string s, return the first non-repeating character in it and return its index.
 If it does not exist, return -1.
 
-Single_number
+Single_number:
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+Intersection_two_arrays:
+Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must
+appear as many times as it shows in both arrays and you may return the result in any order.
