@@ -12,14 +12,14 @@ Write a function that reverses a string. The input string is given as an array o
 
 Sum_of_two_integers_level1:
 Given an array of integers nums and an integer target, return indices of the two numbers such
-that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
-You can return the answer in any order.
+that they add up to target. You may assume that each input would have exactly one solution, 
+and you may not use the same element twice. You can return the answer in any order.
 
 
 Sum_of_two_integers_level2:
 Get size of array from user and its values as integers, return indices of the two numbers such
-that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
-You can return the answer in any order.
+that they add up to target. You may assume that each input would have exactly one solution, and 
+you may not use the same element twice. You can return the answer in any order.
 
 Fizz Buzz:
 Given an integer n, return a string array answer (1-indexed) where:
@@ -27,3 +27,11 @@ answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
 answer[i] == "Fizz" if i is divisible by 3.
 answer[i] == "Buzz" if i is divisible by 5.
 answer[i] == i if non of the above conditions are true.
+
+First_Unique_Character_String:
+Given a string s, return the first non-repeating character in it and return its index.
+If it does not exist, return -1.
+
+Single_number
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+You must implement a solution with a linear runtime complexity and use only constant extra space.
