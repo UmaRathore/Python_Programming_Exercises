@@ -39,3 +39,12 @@ You must implement a solution with a linear runtime complexity and use only cons
 Intersection_two_arrays:
 Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must
 appear as many times as it shows in both arrays and you may return the result in any order.
+
+duplicate_values_array:
+Given an integer array nums, return true if any value appears at least twice in the array,
+and return false if every element is distinct.
+
+missing_number:
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range
+that is missing from the array.
+Follow up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
