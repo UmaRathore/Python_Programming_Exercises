@@ -48,3 +48,11 @@ missing_number:
 Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range
 that is missing from the array.
 Follow up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
+
+move_zeros:
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero
+elements.Note that you must do this in-place without making a copy of the array.
+
+power_of_three:
+Given an integer n, return true if it is a power of three. Otherwise, return false.
+An integer n is a power of three, if there exists an integer x such that n == 3powerx.
