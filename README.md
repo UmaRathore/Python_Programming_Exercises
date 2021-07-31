@@ -56,3 +56,13 @@ elements.Note that you must do this in-place without making a copy of the array.
 power_of_three:
 Given an integer n, return true if it is a power of three. Otherwise, return false.
 An integer n is a power of three, if there exists an integer x such that n == 3powerx.
+
+Array_merge_overlapping_time_intervals
+You are given an array (list) of interval pairs as input where each interval has a start and end timestamp.
+The input array is sorted by starting timestamps. 
+You are required to merge overlapping intervals and return a new output array.
+
+Arrays_move_zeros_to_left:
+Given an integer array, move all elements that are 0 to the left
+while maintaining the order of other elements in the array. The array has to be modified in-place.
+Try it yourself before reviewing the solution and explanation.
