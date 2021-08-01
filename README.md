@@ -66,3 +66,13 @@ Arrays_move_zeros_to_left:
 Given an integer array, move all elements that are 0 to the left
 while maintaining the order of other elements in the array. The array has to be modified in-place.
 Try it yourself before reviewing the solution and explanation.
+
+reverse_words_string:
+Reverse words in a sentence "Hello World"
+
+reverse_characters_string:
+Reverse the order of words in a given sentence (an array of characters).
+
+string_segmented_from_dict_values
+You are given a dictionary of words and a large input string.
+You have to find out whether the input string can be completely segmented into the words of a given dictionary.
