@@ -76,3 +76,25 @@ Reverse the order of words in a given sentence (an array of characters).
 string_segmented_from_dict_values
 You are given a dictionary of words and a large input string.
 You have to find out whether the input string can be completely segmented into the words of a given dictionary.
+
+best_time_sell_buy_stocks
+Dynamic Programming: Find maximum single sell profit Given a list of daily stock prices(integers for
+simplicity), return the buy and sell prices for making the maximum profit. We need to maximize the
+single buy / sell profit.If we can’t make any profit, we’ll try to minimize the loss.
+
+pair_sum
+Pair Sums. Given a list of n integers arr[0..(n-1)], 
+determine the number of different pairs of elements within it which sum to k.
+If an integer appears in the list multiple times, each copy is considered to be different; that is, 
+two pairs are considered different if one pair includes at least one array index which the other doesn't, 
+even if they include the same values.
+
+balanced_parenthesis_stack
+ The sequence is composed of two or more non-empty sequences, all of which are balanced, or
+The first and last brackets of the sequence are matching, and the portion of the sequence without the first and 
+last elements is balanced. You are given a string of brackets. 
+Your task is to determine whether each sequence of brackets is balanced. 
+If a string is balanced, return true, otherwise, return false
+
+binary_tree
+Inorder traversal, print all nodes
